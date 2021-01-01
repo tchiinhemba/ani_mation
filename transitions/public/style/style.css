@@ -55,7 +55,9 @@ body {
 }
 
 .card-wrapper p {
-    font-size: 14px;
+    font-size: 0;
+    visibility: hidden;
+    opacity: 0;
     font-weight: bold;
     text-transform: uppercase;
     transition: .3s;
