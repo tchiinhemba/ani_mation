@@ -13,7 +13,7 @@ body {
 .card {
     width: 500px;
     height: 400px;
-    background-image: url('../image/ilustration2.jpg');
+    background-image: url('../image/ilustration3.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -61,4 +61,8 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     transition: .3s;
+}
+
+.card:hover {
+    filter: unset;
 }
