@@ -11,13 +11,22 @@ body {
 }
 
 .card {
-    width: 400px;
-    height: 500px;
-    background-image: url('../image/img1.jpg');
+    width: 500px;
+    height: 400px;
+    background-image: url('../image/ilustration2.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
+    filter: grayscale(0.5);
+    color: white;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.card-wrapper {
+    text-align: center;
+    display: flex;
 }
