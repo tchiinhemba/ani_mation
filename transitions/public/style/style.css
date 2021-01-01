@@ -45,3 +45,11 @@ body {
     opacity: 0;
     transition: .3s;
 }
+
+.card-wrapper h2 {
+    font-size: 40px;
+    letter-spacing: 4px;
+    margin: 0;
+    text-transform: uppercase;
+    transition: .3s;
+}
