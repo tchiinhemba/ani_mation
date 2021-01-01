@@ -1,5 +1,6 @@
 body {
     font-family: sans-serif;
+    background: black;
 }
 
 .container {
@@ -65,4 +66,10 @@ body {
 
 .card:hover {
     filter: unset;
+}
+
+.card:hover > .card-wrapper::before {
+    width: 400px;
+    height: 300px;
+    opacity: 1;
 }
