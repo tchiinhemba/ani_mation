@@ -53,3 +53,10 @@ body {
     text-transform: uppercase;
     transition: .3s;
 }
+
+.card-wrapper p {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: .3s;
+}
