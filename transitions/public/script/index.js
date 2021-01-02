@@ -1,5 +1,9 @@
 
-var link = document.querySelector('.link')
-link.onclick = function(){
-    window.open('https://github.com/tchiinhemba', '_blank');
-}
+let github = document.querySelector('#link');
+
+
+const link = {
+    github: 'https://github.com/tchiinhemba'
+};
+
+github.addEventListener('click', () => document.location.assign(link.github));
