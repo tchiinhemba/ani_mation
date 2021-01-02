@@ -73,3 +73,9 @@ body {
     height: 300px;
     opacity: 1;
 }
+
+.card:hover > .card-wrapper p {
+    font-size: 14px;
+    opacity: 1;
+    visibility: visible;
+}
